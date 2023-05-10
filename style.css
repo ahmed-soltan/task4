@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    
+    width: 100%;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: 1000;
+}
+.header nav .logo img{
+    width: 170px;
+    margin: 10px;
+}
+.header nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.banner{
+    background: linear-gradient(to right ,rgb(52, 58, 71),rgb(186, 185, 185));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 85vh;
+}
+.banner img{
+    width: 500px;
+}
+.banner .content{
+    width: 500px;
+}
+.banner .content h1{
+    font-size: 60px;
+    color: rgb(214, 215, 215);
+    margin: 20px 0;
+}
+.banner .content p{
+    color: rgb(185, 186, 186);
+    line-height: 25px;
+}
+.btn{
+    background: black;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.products {
+    margin: 50px 0;
+    position: relative;
+}
+h1{
+    position: relative;
+
+}
+.title{
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.row .col{
+    margin: 0 27px;
+    }
+.row .col img{
+    width: 200px;
+
+}
+.row .col h3{
+    margin-bottom: 6px;
+}
+.products a{
+    position: absolute;
+    text-align: center;
+    margin-left: 46rem;
+    margin-top: 50px;
+}
+.product a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    position: absolute;
+    margin-top:8px;
+    font-size: 18px;
+    background: black;
+    border-radius: 20px;
+}
+.details{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.details img{
+    width: 400px;
+}
+.details .content{
+    width: 500px;
+    margin-left: 100px;
+}
+.details .content h1{
+    font-size: 60px;
+    color: #333;
+    margin: 20px 0;
+}
+.details .content h4{
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+}
+.details .content span{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.details .content span input{
+    width: 70px;
+    height: 50px;
+    padding: 0 10px;
+}
+.details .content p{
+    color: rgb(185, 186, 186);
+    line-height: 25px;
+}
+.details .content a{
+    text-decoration: none;
+}
+.about{
+    width: 80%;
+    margin: auto;
+}
+.about ul li{
+    margin: 20px 0;
+    line-height: 25px;
+}
+.about ul li h2{
+    font-size: 35px;
+    margin: 10px 0;
+    font-weight: 900;
+}
+.about ul li p{
+    color: #333;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+}
+.container form{
+    border: 1px solid black;
+    padding: 100px;
+}
+.container form div label{
+    display: block;
+    font-size: 20px;
+    margin: 7px 0;
+}
+.container form div input{
+    width: 400px;
+    height: 30px;
+    padding: 0 10px;
+}
+textarea{
+    display: block;
+}
+.sub-btn{
+    margin-top: 60px;
+    background: black;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.end{
+   width: 80%;
+   margin: auto;
+}
+.end ul li{
+    margin: 10px;
+    color: #333;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.end .btn{
+    text-align: center;
+}
+.Btn{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    background: black;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
